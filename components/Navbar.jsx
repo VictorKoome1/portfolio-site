@@ -96,7 +96,7 @@ const Navbar = () => {
                             </div>
                         </div>
                         <div className='border-b border-gray-400 my-4'>
-                            <p className='w-[85%] md:w-[90%] py-4'>Lets build something together change</p>
+                            <p className='w-[85%] md:w-[90%] py-4'>Lets build something together</p>
                         </div>
                     </div>
                     <div className='py-4 flex flex-col'>
@@ -118,7 +118,7 @@ const Navbar = () => {
                             </Link>
                         </ul>
                         <div className='pt-12'>
-                            <p className='uppercase tracking-widest text-[#5651e5]'>Lets connect</p>
+                            <p className='uppercase tracking-widest text-green-500'>Lets connect</p>
                             <div className='flex items center justify-between my-6 w-full sm:w-[80%]'>
                                 <a href="https://www.linkedin.com/in/victor-koome-31787a242/" target="_blank">
                                 <div className='rounded-full shadow-lg shadow-gray-400 p-3 cursor-pointer hover:scale-105 ease-in duration-300'>
