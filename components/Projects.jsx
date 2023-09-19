@@ -49,7 +49,7 @@ function Projects() {
     //     </div>
     // </div>
 
-    <div id='projects' className='max-w-[1240px] mx-auto lg:px-20 py-24'>
+    <div id='projects' className='max-w-[1240px] mx-auto lg:px-20 py-24 px-2'>
       <p className='uppercase text-xl tracking-widest text-[#78c545]'>projects</p>
       <h2 className='py-4'>What I&apos;ve Built</h2>
       <div className="w-full flex flex-col items-center justify-center gap-28 mt-10">
