@@ -1,5 +1,5 @@
 "use client";
-import React from 'react'
+import React, { useState } from 'react'
 import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
@@ -11,6 +11,10 @@ import footerImg from '../public/assets/projects/footer.jpg'
 import Image from 'next/image';
 
 function Contact() {
+
+  const [isEmailSent, setIsEmailSent] = useState(false)
+  const successCardClasses = `absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2
+    bg-[#78c545] text-[#FFF8DC] shadow-md p-4 rounded-md ${isEmailSent ? 'block' : 'hidden'}`;
     
   const form = useRef()
   const sendEmail = (e) => {
@@ -19,6 +23,10 @@ function Contact() {
     emailjs.sendForm('service_32exiop', 'template_bg2ihjb', form.current, 'WQ7dx-cNA7-X1yHDG')
       .then((result) => {
           console.log(result.text);
+          setIsEmailSent(true)
+          setTimeout(()=> {
+            setIsEmailSent(false)
+          },3000)
       }, (error) => {
           console.log(error.text);
       });
@@ -70,7 +78,7 @@ function Contact() {
             </div>
             {/* right */}
             <div className='col-span-3 w-full h-auto shadow-xl shadow-gray-400 rounded-xl lg:p-4'>
-               <div className='p-4'>
+               <div className='p-4 relative'>
                <form 
                 ref={form}
                 onSubmit={sendEmail}
@@ -126,12 +134,22 @@ function Contact() {
                     placeholder='Type your message...'
                   ></textarea>
                 </div>
-                <button type='submit' className='w-full p-4 text-gray-100 mt-4 bg-[#78c545]'>
+                <button type='submit' className='w-full p-4 shadow-xl rounded-xl text-gray-100 mt-4 bg-[#78c545]'>
                   Send Message
                 </button>
               </form>
+              <div>
+              {
+                isEmailSent && 
+                  <div className={successCardClasses}>
+                    <p>Email sent successfully!</p>
+                    {/* You can add any additional content you want to display upon success */}
+                  </div>
+              }
+            </div>
                </div>
             </div>
+            
           </div>
 
           <div className='flex justify-center py-12'>
@@ -143,8 +161,6 @@ function Contact() {
                 />
               </div>
           </Link>
-
-        
           </div>
         </div>
         <div className='m-auto px-2 py-5 w-full bg-[#78c545]' bg-green-500>

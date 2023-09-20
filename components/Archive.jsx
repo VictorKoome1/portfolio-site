@@ -16,43 +16,37 @@ function Archive() {
        <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 mt-10 lgl:px-10">
         <ArchiveCard
         title="Password Generator"
-        des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          laudantium velit qui sint non, voluptates quo a veritatis."
+        des=" Created a visually stunning and responsive password generator website using HTML, CSS, and JavaScript. Empowers users to generate strong, secure passwords effortlessly."
         listItem={["Html", "CSS", "JavaScript"]}
         link="https://victorkoome1.github.io/random-password-generator/"
          />
         <ArchiveCard
         title="Text To Speech Convertor"
-        des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          laudantium velit qui sint non, voluptates quo a veritatis."
+        des=" Seamlessly transforms text into lifelike audio using Google API and JavaScript. A visually appealing and responsive tool for enhanced accessibility and user engagement."
         listItem={["gTTS API", "Html", "CSS"]}
         link="https://victorkoome1.github.io/text-to-speech-converter/"
          />
         <ArchiveCard
         title="Mark-Down Previewer"
-        des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          laudantium velit qui sint non, voluptates quo a veritatis."
+        des=" Created a visually stunning Markdown previewer using ReactJS, seamlessly integrated with GitHub API for real-time content rendering."
         listItem={["Reactjs", "Github Api", "Firebase"]}
         link="https://markdown-previewer-4bf7d.web.app/"
          />
         <ArchiveCard
         title="Reviews"
-        des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          laudantium velit qui sint non, voluptates quo a veritatis."
+        des=" Experience elegance with Markdown review carousel.It Effortlessly scrolls through captivating reviews, or randomness upon click of a button."
         listItem={["Html", "CSS", "JavaScript"]}
         link="https://victorkoome1.github.io/reviews/"
          />
         <ArchiveCard
         title="Eduford University"
-        des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          laudantium velit qui sint non, voluptates quo a veritatis."
+        des=" Designed and developed a visually stunning and responsive landing page for a prestigious university, enhancing their online presence and user engagement"
         listItem={["JavaScript", "Tailwind CSS", "Html"]}
         link="https://victorkoome1.github.io/uni/"
          />
         <ArchiveCard
         title="Hairdresser Shop"
-        des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-          laudantium velit qui sint non, voluptates quo a veritatis."
+        des=" Crafted a visually stunning, responsive website for a trendy hairdresser shop, blending style and functionality seamlessly."
         listItem={["Html", "Tailwind CSS", "JavaScript"]}
         link="https://victorkoome1.github.io/saloonX/"
          />
@@ -66,8 +60,7 @@ function Archive() {
             >
               <ArchiveCard
                 title="Documentaion Page"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
+                des=" Elegant and visually captivating documentation page that combines aesthetics with functionality.Streamlined user access to comprehensive guidance."
                 listItem={["Html", "CSS", "JavaScript"]}
                 link="https://victorkoome1.github.io/Documentaion-page/"
               />
@@ -79,8 +72,7 @@ function Archive() {
             >
               <ArchiveCard
                 title="Drum Machine"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
+                des=" Created a visually appealing drum machine using HTML, JavaScript, and DOM manipulation. It's an interactive musical tool that allows users to create rhythms with ease."
                 listItem={["Html", "CSS", "JavaScript"]}
                 link="https://victorkoome1.github.io/drumkit/"
               />
@@ -92,8 +84,7 @@ function Archive() {
             >
               <ArchiveCard
                 title="To-Do List"
-                des=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa
-            laudantium velit qui sint non, voluptates quo a veritatis."
+                des=" Developed an elegant To-Do list web application using Node.js, HTML, and CSS, delivering a visually appealing and user-friendly task management experience."
                 listItem={["NodeJs", "MongoDB", "JavaScript"]}
                 link="https://github.com/VictorKoome1/todolist-v1"
               />

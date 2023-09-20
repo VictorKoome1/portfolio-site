@@ -4,6 +4,7 @@ import { AiOutlineMail } from 'react-icons/ai'
 import { BsFillPersonLinesFill } from 'react-icons/bs'
 import { FaGithub, FaLinkedinIn } from 'react-icons/fa'
 import { motion } from 'framer-motion'
+// import resume from '../public/resume.pdf'
 
 function main() {
   return (
@@ -63,6 +64,13 @@ function main() {
               </div>
             </a>
           </motion.div>
+          <a href='/resume.pdf' download="VictorResume.pdf" target='_blank'>
+         <motion.div initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ delay: 1.0 }} className='mt-8'>
+         <button className='w-36 h-12 shadow-xl shadow-gray-300 hover:scale-110 ease-in duration-300'>Resume</button>
+         </motion.div>
+         </a>
         </div>
       </div>
     </div>
