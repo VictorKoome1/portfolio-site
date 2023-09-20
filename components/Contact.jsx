@@ -126,7 +126,7 @@ function Contact() {
                     placeholder='Type your message...'
                   ></textarea>
                 </div>
-                <button type='submit' className='w-full p-4 text-gray-100 mt-4 bg-green-500'>
+                <button type='submit' className='w-full p-4 text-gray-100 mt-4 bg-[#78c545]'>
                   Send Message
                 </button>
               </form>
@@ -138,7 +138,7 @@ function Contact() {
           <Link href='/#home'>
               <div className='rounded-full shadow-lg shadow-gray-400 p-4 cursor-pointer hover:scale-110 ease-in duration-300'>
                 <HiOutlineChevronDoubleUp
-                  className='text-green-500'
+                  className='text-[#78c545]'
                   size={30}
                 />
               </div>
@@ -147,7 +147,7 @@ function Contact() {
         
           </div>
         </div>
-        <div className='m-auto px-2 py-5 w-full bg-green-500' bg-green-500>
+        <div className='m-auto px-2 py-5 w-full bg-[#78c545]' bg-green-500>
             <p className='text-center text-white'>Victor Koome. &copy;2023</p>
         </div>
     </div>
