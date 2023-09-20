@@ -34,7 +34,7 @@ function main() {
           <motion.p initial={{ y: 10, opacity: 0 }}
             animate={{ y: 0, opacity: 1 }}
             transition={{ duration: 0.5, delay: 0.8 }} className='py-4 text-gray-600 sm:max-w-[70%] m-auto'>
-            I am a driven individual, constantly seeking to expand my knowledge and skills, with a strong dedication to harnessing my expertise for positive impact.Let&#39;s connect and embark on a collective journey to shape the future with purpose-driven frontend development.
+            I am a passion driven individual, constantly seeking to expand my knowledge and skills, with a strong dedication to harnessing my expertise for positive impact.Let&#39;s connect and embark on a collective journey to shape the future with purpose-driven frontend development.
           </motion.p>
 
 
