@@ -147,6 +147,9 @@ function Contact() {
         
           </div>
         </div>
+        <div className='m-auto px-2 py-5 w-full bg-green-500' bg-green-500>
+            <p className='text-center text-white'>Victor Koome. &copy;2023</p>
+        </div>
     </div>
   )
 }
